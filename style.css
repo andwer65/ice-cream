@@ -5,14 +5,105 @@ width: 750px;
 
 body { 
 text-align: center; 
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+font-family: "Momo Trust Display", sans-serif;
 background: rgb(145, 189, 252); 
 font-size: 2em;
- line-height: 0.3em; 
+ line-height: 1.5em; 
 padding: 2em;
  } 
 
 
 h1 {
  padding-top: 1em; 
+}
+
+.navbar {
+    background-color: blue;
+    padding: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 1.5em;
+    padding-left: 2em;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: blue;
+    color: black;
+    width: 100%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin-top: 5em;
+    padding-top: 80px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 50em;
+    margin-bottom: 3em;
+}
+
+.footer-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: bold;
+    transition: color 0.5s;
+    font-size: 30px;
+    padding-bottom: 2em;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.github-link {
+    border: 2px solid white;
+    background-color: transparent;
+    color: black;
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+.github-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    padding-left: 4em;
+    padding-right: 10em;
+    margin-bottom: 8em;
+    margin-top: 2em;
 }
